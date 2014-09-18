@@ -25,9 +25,12 @@ npm install ping
 
     hosts.forEach(function (host) {
         ping.promise.probe(host)
-            .then(function (res) {
-                console.log(res);
-            });
+            .then(function(res) {
+                console.log(host, res.alive, res.ms + ' ms');
+            })
+            .catch(function(e) {
+                console.log('couldn\'t reach', host, e);
+            })
     });
 
 ##Promise Wrapper with configable ping options
