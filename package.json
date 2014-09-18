@@ -2,7 +2,7 @@
   "author": "Tomas Kafka <tk@tomaskafka.com>",
   "name": "tk-ping",
   "description": "a simple wrapper for ping, modified from danielzzz <daniel@zelisko.net> (http://daniel.zelisko.net)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "http://github.com/tkafka/node-ping",
   "repository": {
     "type": "git",

@@ -9,7 +9,7 @@ hosts.forEach(function(host){
     		console.log(host, res.alive, res.ms + ' ms');
     	})
     	.catch(function(e) {
-    		console.log('dead', host, e);
+    		console.log('dead', host, e.message);
     	})
 });
 
