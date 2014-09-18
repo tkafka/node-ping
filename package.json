@@ -1,7 +1,7 @@
 {
-  "author": "danielzzz <daniel@zelisko.net> (http://daniel.zelisko.net)",
-  "name": "ping",
-  "description": "a simple wrapper for ping",
+  "author": "Tomas Kafka <tk@tomaskafka.com>",
+  "name": "tk-ping",
+  "description": "a simple wrapper for ping, modified from danielzzz <daniel@zelisko.net> (http://daniel.zelisko.net)",
   "version": "0.1.9",
   "homepage": "http://github.com/tkafka/node-ping",
   "repository": {
